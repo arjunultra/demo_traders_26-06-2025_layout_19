@@ -69,7 +69,7 @@ $page = "contact";
                     ?>
                     <article class="col-12 col-md-6 col-lg-3 mb-4">
                         <div class="contact-hub-card p-4 rounded shadow-sm h-100">
-                            <div class="d-flex align-items-center mb-3">
+                            <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-3">
                                 <i class="bi bi-<?= $c['icon'] ?> contact-hub-card-icon"></i>
                                 <h4 class="contact-hub-card-title ml-3"><?= $c['title'] ?></h4>
                             </div>

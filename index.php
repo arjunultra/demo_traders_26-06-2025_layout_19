@@ -67,7 +67,7 @@
 
 				<!-- Image Column -->
 				<div class="col-12 col-md-6 col-lg-6 welcome-section-image wow fadeInRight" data-wow-delay="0.5s">
-					<div class="welcome-section-image-wrapper bg-purple">
+					<div class="welcome-section-image-wrapper bg-purple rounded-circle">
 						<img src="images/welcome-hero.webp" alt="Fireworks Banner" class="img-fluid">
 					</div>
 				</div>
@@ -124,6 +124,16 @@
 	<!-- index counter -->
 	<!-- Counter Section -->
 	<section class="counter-section py-5 wow fadeIn" data-wow-delay="1s">
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+				<div class="col-12 text-center">
+					<h2 class="counter-section-heading text-uppercase">Our Trusted Milestones</h2>
+					<p class="counter-section-intro">Celebrating our journey with thousands of satisfied customers and
+						expanding reach.</p>
+				</div>
+			</div>
+		</div>
+
 		<div class="container-fluid">
 			<!-- Top Row -->
 			<div class="row justify-content-center">
@@ -146,7 +156,7 @@
 				<?php endforeach; ?>
 			</div>
 
-			<!-- Bottom Row (staggered) -->
+			<!-- Bottom Row -->
 			<div class="row justify-content-center">
 				<?php
 				$bottom = [
@@ -168,6 +178,7 @@
 			</div>
 		</div>
 	</section>
+
 	<!-- parallax section -->
 	<section class="parallax-section position-relative text-center d-flex align-items-center wow fadeIn"
 		data-wow-delay="0.5s">
@@ -204,7 +215,7 @@
 					<div class="showcase-card showcase-wholesale position-relative overflow-hidden rounded">
 						<img src="images/wholesale.webp" alt="Wholesale fireworks" class="img-fluid">
 						<div class="showcase-overlay">
-							<h4>Wholesale Offers</h4>
+							<h4 class="text-warning">Wholesale Offers</h4>
 							<p>Bulk picks, amazing pricing, and priority access—perfect for large-scale celebrations.
 							</p>
 						</div>
@@ -214,7 +225,7 @@
 					<div class="showcase-card showcase-retail position-relative overflow-hidden rounded">
 						<img src="images/retail.webp" alt="Retail fireworks" class="img-fluid">
 						<div class="showcase-overlay">
-							<h4>Retail Delights</h4>
+							<h4 class="text-warning">Retail Delights</h4>
 							<p>Hand-picked packs, safe sparklers, and family-friendly combos for fade-free fun.</p>
 						</div>
 					</div>
